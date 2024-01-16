@@ -396,7 +396,7 @@ margin: 20px;
 }
 
 .feature{
-    margin: 50px 0;
+    margin: 70px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -442,6 +442,28 @@ position: absolute;
 bottom: 45px;
 right: 0px;
 rotate: -35deg;
+}
+
+/* Footer Section styles */
+footer{
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 70px;
+}
+
+.footer-nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon i{
+    font-size: 1.25rem;
+    margin:20px ;
+}
+
+.footer-hr{
+    width: 50%;
+    margin:50px auto;
 }
 
 
