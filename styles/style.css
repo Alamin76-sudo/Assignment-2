@@ -34,7 +34,9 @@
 }
 
 /* Nav section Styles */
-
+.humberger{
+    display: none;
+}
 header,
 main {
     margin: 50px 120px;
@@ -470,10 +472,15 @@ footer{
 /* Responsive for mobile */
 @media screen and (max-width:600px) {
 
-    
-
+   .humberger{
+    display: block;
+   } 
+.nav-item{
+    display: none;
+}
     header,
-    main {
+    main,
+    footer {
         margin: 10px;
     }
 
@@ -492,7 +499,7 @@ footer{
         background-position: center;
     }
 
-    .nav-section,
+    
     .banner-search,
     .popular-tours,
     .perfect-place,
@@ -541,5 +548,9 @@ footer{
 
 .perfect-place{
     gap: 0;
+}
+
+footer{
+    padding: 20px;
 }
 }
